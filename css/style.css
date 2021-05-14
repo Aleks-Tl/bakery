@@ -1266,6 +1266,7 @@ body.lock {
   }
 
   .promo .header__menu {
+    margin-top: 15%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1480,6 +1481,11 @@ body.lock {
   .page__up {
     right: 20px;
     bottom: 20px;
+  }
+
+  .animate__animated {
+    -webkit-animation-name: none;
+            animation-name: none;
   }
 }
 
